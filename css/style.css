@@ -159,7 +159,9 @@ ul.off_navbar-nav.mb-2.mb-lg-0 {
 }
 
 /* ======================= Nav Bar =========================== */
-
+.logo_sm_align.d-lg-none.d-sm-block .logo {
+  margin-top: 10px;
+}
 section.banner-bg {
   margin-top: 0;
   padding-top: 0;
