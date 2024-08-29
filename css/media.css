@@ -242,6 +242,7 @@ section.experts_section {
     margin: auto;
     display: grid;
     grid-template-columns: 50% 50%;
+    justify-items: center;
 }
 .features_items .image {
   width: 100px;
