@@ -1,0 +1,392 @@
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+
+
+
+  
+}
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+h1{
+font-size: 46px;
+}
+p{
+  font-size: 15px;
+}
+.b_i_right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0px, -50%);
+  z-index: 1;
+  width: 45%;
+}
+section.experts_section iframe {
+  height: 400px;
+}
+.i_w_c_img {
+  width: 400px;
+  height: 400px;
+  margin-left: -18px;
+}
+.contact_map {
+  display: flex;
+  justify-content: center;
+}
+footer li.nav-item a {
+  font-size: 15px;
+}
+.i_links ul li {
+  font-size: 15px;
+}
+.f_l_para p {
+  margin: 16px 78px 20px 0px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.approved p {
+  margin: 10px 60px 20px 0px;
+}
+.inputBox span {
+  font-size: 14px;
+}
+li.nav-item a.nav-link.after {
+  font-size: 16px;
+  padding: 5px 0px;
+}
+.products_text h6{
+  font-size: 16px;
+}
+.p_prices p {
+  font-size: 13px;
+}
+.t_c_l_items {
+  width: 100px;
+}
+section.i_w_cover_section {
+  margin-top: -30px;
+}
+section.shop_now_section {
+  margin-top: -30px;
+}
+section.Testimoials_section {
+  margin-top: -30px;
+}
+section.experts_section{
+  margin-top: -30px;
+}
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 992px) {
+
+  h1{
+    font-size: 40px;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  p{
+    font-size: 15px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.i_w_c_img {
+  width: 300px;
+  height: 300px;
+  margin-left: -18px;
+}
+section.experts_section iframe {
+  height: 300px;
+}
+.contact_map iframe {
+  height: 300px;
+}
+form {
+  padding: 50px;
+}
+section.contact_section {
+  padding-bottom: 20px;
+}
+.f_l_para p {
+  margin: 16px 0px 20px 0px;
+  font-size: 13px;
+}
+.i_links ul li {
+  font-size: 13px;
+  font-weight: 300;
+}
+footer li.nav-item a {
+  font-size: 13px;
+}
+li.nav-item {
+  text-align: center;
+}
+.approved p{
+  font-size: 13px;
+}
+.copyrights p{
+  font-size: 13px;
+}
+.f_b_left p{
+  font-size: 13px;
+}
+.f_b_right ul li p{
+  font-size: 13px;
+}
+.f_b_right ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.i_w_c_content_text {
+  margin: 0px 0px 0px 15px;
+}
+.i_w_c_img {
+  width: 250px;
+  height: 250px;
+  margin-left: -18px;
+}
+
+.row.min_hight {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+.w_c_icon_content p {
+  font-size: 14px;
+}
+section.i_w_cover_section {
+  margin-top: -30px;
+}
+section.shop_now_section {
+  margin-top: -30px;
+}
+section.Testimoials_section {
+  margin-top: -32px;
+}
+.testi_box {
+  margin: 10px 0px;
+}
+.s_content {
+  width: 80%;
+  margin: auto;
+}
+.s_content.width{
+  width: 80%;
+}
+
+
+  /*---- OfCanvas/side menu---- */
+
+  .logo-align_r {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  button.navbar-toggler {
+    display: none;
+  }
+
+  .logo-align-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  section.offcan_section.d-lg-none {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+  /* --------- Header ---------- */
+  header.sticky-nav{
+    display: none;
+  }
+ 
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+
+
+  h2 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .row.width {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.features_items .image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.g_s_vector {
+  display: none;
+}
+.products_text h6 {
+  font-size: 14px;
+}
+.i_w_c_img {
+  width: 130px;
+  height: 130px;
+  margin-left: -6px;
+}
+.i_w_c_content_text {
+  margin: 0;
+  width: 100%;
+}
+.sub_text {
+  margin: 5px 0px;
+  position: relative;
+}
+.sub_text p {
+  padding: 5px 0px;
+  font-size: 12px;
+}
+.i_w_c_head h5 {
+  font-size: 16px;
+}
+.i_w_c_content {
+  padding: 0px 5px;
+}
+
+
+.b_i_right {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 100%;
+}
+
+section.banner-bg {
+  background: url(../images/bannarBg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* z-index: -1; */
+}
+.chatnowBg {
+  position: absolute;
+  right: -60px;
+  top: 70%;
+}
+.t_c_l_items {
+  margin: 10px 0px;
+}
+
+section {
+  padding: 20px 0px;
+  /* margin: 30px 0px; */
+}
+section.i_w_cover_section {
+  margin-top: -40px;
+}
+section.Testimoials_section {
+  margin-top: -40px;
+}
+section.experts_section {
+  margin-top: -40px;
+}
+.s_content {
+  margin: 15px auto;
+}
+.l_sm_align.d-lg-none.d-sm-block {
+  display: none;
+}
+
+
+  /*---- OfCanvas/side menu---- */
+
+  .logo-align_r {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  /* ------------------- */
+
+ 
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 20px;
+  }
+ 
+
+  
+
+  /*---- OfCanvas/side menu---- */
+
+  header.sticky-nav .navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+  }
+
+  /* ---------- Header ---------- */
+
+  .bannar-content {
+    padding: 0px;
+}
+.s_s_n_text {
+  padding-bottom: 25px;
+}
+.t_s_para {
+  width: 100%;
+  padding: 0px 30px;
+}
+.news_text h3{
+  font-size: 16px;
+  padding: 0px 20px;
+}
+
+
+
+.g_s_box {
+  position: relative;
+  background: var(--gradient);
+  margin: 10px 0px;
+}
+.g_s_i_width {
+  margin: 30px auto 30px;
+}
+
+
+}
+@media (max-width: 375px){
+  .news_form form {
+    width: 290px;
+}
+}
