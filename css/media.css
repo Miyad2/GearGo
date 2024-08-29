@@ -1,7 +1,9 @@
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
 
-
+h1{
+  font-size: 54px;
+}
 
 
   
@@ -173,7 +175,10 @@ section.shop_now_section {
   margin-top: -30px;
 }
 section.Testimoials_section {
-  margin-top: -32px;
+          margin-top: -34px;
+}
+section.experts_section {
+          margin-top: -32px;
 }
 .testi_box {
   margin: 10px 0px;
@@ -305,7 +310,7 @@ section {
   /* margin: 30px 0px; */
 }
 section.i_w_cover_section {
-  margin-top: -40px;
+         margin-top: -42px;
 }
 section.Testimoials_section {
   margin-top: -40px;
@@ -382,7 +387,30 @@ section.experts_section {
 .g_s_i_width {
   margin: 30px auto 30px;
 }
-
+  .s_heading h2 {
+    color: var(--btnBg);
+    padding-bottom: 15px;
+}
+  .bannar-heading {
+    padding-right: 40px;
+}
+  .input-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+  .f_top_bg {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+  section {
+    padding: 30px 0px;
+    margin: 0px;
+}
 
 }
 @media (max-width: 375px){
