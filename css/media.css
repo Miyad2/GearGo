@@ -293,7 +293,7 @@ section.banner-bg {
 }
 .chatnowBg {
   position: absolute;
-  right: -60px;
+  right: 0;
   top: 70%;
 }
 .t_c_l_items {
