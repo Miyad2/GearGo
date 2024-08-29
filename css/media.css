@@ -416,6 +416,9 @@ section.experts_section {
     padding: 30px 0px;
     margin: 0px;
 }
+  .logo_sm_align.d-sm-none.d-lg-block {
+    display: none;
+}
 
 }
 @media (max-width: 375px){
