@@ -281,7 +281,7 @@ section.experts_section {
 
 .b_i_right {
   position: absolute;
-  left: 50%;
+  left: 0;
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
