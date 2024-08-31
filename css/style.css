@@ -589,7 +589,8 @@ section.i_w_cover_section .s_heading_align {
   font-size: 40px;
 }
 .slick-list.draggable {
-  margin-bottom: 20px;
+  width: 80%;
+  margin: 0px auto 20px;
 }
 
 
