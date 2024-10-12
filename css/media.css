@@ -424,6 +424,11 @@
     .news_form form {
       width: 290px;
   }
+.l_sm_align.d-sm-none.d-lg-block {
+    display: none;
+}
+
+    
   }
 
 
