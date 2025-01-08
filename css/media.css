@@ -427,7 +427,34 @@
 .l_sm_align.d-sm-none.d-lg-block {
     display: none;
 }
-
+    .bannarBtn {
+    z-index: 999;
+    position: relative;
+}
+    .bannarPara {
+    position: relative;
+    z-index: 99;
+}
+  .i_w_c_full.slick-slide {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background: var(--gradient);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 162px;
+    flex-direction: column;
+}
+    .slick-list.draggable {
+    width: 100%;
+}
+    .i_w_c_img {
+        width: 100px;
+        height: 100px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
     
   }
 
