@@ -353,6 +353,10 @@
     h3 {
       font-size: 20px;
     }
+        h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
    
   .bannarBtn {
     position: relative;
