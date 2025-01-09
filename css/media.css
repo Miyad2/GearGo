@@ -418,6 +418,9 @@
   .logo_sm_align.d-sm-none.d-lg-block {
     display: none;
 }
+    .l_sm_align.d-sm-none.d-lg-block {
+    display: none;
+}
   
   }
   @media (max-width: 375px){
