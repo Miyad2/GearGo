@@ -560,13 +560,14 @@ section.i_w_cover_section .s_heading_align {
   color: #fff;
 }
 .i_w_c_full.slick-slide {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  background: var(--gradient);
-  border-top-left-radius: 250px;
-  border-bottom-left-radius: 250px;
-  border-top-right-radius: 280px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background: var(--gradient);
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 280px;
 }
 .i_w_c_content {
   padding: 0px 20px;
