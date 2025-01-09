@@ -1,7 +1,7 @@
 $(document).ready(function(){
 $('.multiple-items').slick({
   autoplay:false,
-  infinite: true,
+  infinite: false,
   speed: 300,
   dots: true,
   arrows:false,
@@ -11,7 +11,7 @@ $('.multiple-items').slick({
 });
 $('.s_video').slick({
   autoplay:false,
-  infinite: true,
+  infinite: false,
   speed: 300,
   dots: true,
   arrows:false,
