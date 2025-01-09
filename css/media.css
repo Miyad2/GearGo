@@ -356,7 +356,7 @@
    
   .bannarBtn {
     position: relative;
-    z-index: 999;
+    z-index: 1;
 }
     .bannarBtn button {
     margin-bottom: 15px;
