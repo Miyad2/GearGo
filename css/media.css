@@ -354,7 +354,17 @@
       font-size: 20px;
     }
    
-  
+  .bannarBtn {
+    position: relative;
+    z-index: 999;
+}
+    .bannarBtn button {
+    margin-bottom: 15px;
+}
+        h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
     
   
     /*---- OfCanvas/side menu---- */
